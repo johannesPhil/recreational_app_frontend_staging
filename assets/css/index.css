@@ -1,0 +1,287 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: #fff;
+    color: #000;
+}
+
+nav ul {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    margin: 20px 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 496px;
+    max-height: 600px;
+    background-image: url(https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396358/advancerTeam/Recreation%20App/Rectangle_2_mnaavx.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .4;
+}
+
+#intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+#search {
+    width: 50%;
+    max-width: 80%;
+    z-index: 1;
+}
+
+#search form {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search select {
+    display: block;
+    width: max-content;
+    overflow: auto;
+    padding: 10px 15px;
+    text-align-last: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #02163E;
+    cursor: pointer;
+}
+
+#search input[type=submit] {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#visited_section {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#visited_list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.visited_card {
+    width: 390px;
+    height: 360px;
+    margin: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex: .5 1 auto;
+}
+
+.visited_card img {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+.card_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#recommended_section {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#recommended_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommended_card {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recommended_card>* {
+    margin: 10px;
+    text-align: left;
+}
+
+#more {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+#fun {
+    height: 400px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/jphil/image/upload/v1579403516/advancerTeam/Recreation%20App/Rectangle_20_wpqtqk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#quote {
+    font-size: 3em;
+    background: rgba(2, 22, 62, 0.7);
+    padding: 5% 10%;
+    color: #fff;
+}
+
+footer {
+    height: auto;
+    overflow: auto;
+    background-color: #02163E;
+    color: #fff;
+}
+
+#newsletter {
+    padding: 2.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#newsletter p {
+    margin: 0;
+    font-size: 2em;
+}
+
+#subscribe input[type=email] {
+    width: 300px;
+    padding-left: 10px;
+    border: solid 2px #fff;
+    background: rgba(2, 22, 62, 0.7);
+}
+
+::placeholder {
+    color: #fff;
+}
+
+#subscribe input[type=submit] {
+    background: rgba(41, 201, 15, 0.33);
+    border: 2px solid #FFFFFF;
+    padding: 0 5px box-sizing: border-box;
+    color: #fff;
+}
+
+#app_download {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#app_download img {
+    margin: 30px;
+}
+
+#bottom_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: cenetr;
+    justify-content: space-around;
+    color: #fff;
+}
+
+#bottom_nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom_nav ul li {
+    list-style: none;
+}
+
+#bottom_nav ul li a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #fff;
+}

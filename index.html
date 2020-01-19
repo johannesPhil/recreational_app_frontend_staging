@@ -8,13 +8,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>GUYS</h1>
-        <h3>We can pick it from here</h3>
-        <i class="fa fa-paper-plane fa-8x"></i>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Special offers</a>
+                </li>
+                <li>
+                    <a href="">Gallery</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Login</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <div id="intro">
+                <h1>Wanna Have Fun?</h1>
+                <h3>Why Not Check Out Recreation Centers Near You?</h3>
+            </div>
+            <div id="search">
+                <form action="">
+                    <select name="city" id="select_city">
+                        <option value="">City</option>
+                        
+                    </select>
+                    <select name="area" id="select_area">
+                        <option value="">Area</option>
+                    </select>
+                    <select name="actitvity" id="select_activity">
+                        <option value="">Type of Activity</option>
+                    </select>
+                    <!-- <button><i class="fa fa-search"></i></button> -->
+                    <input type="submit" value="Find">
+                </form>
+
+            </div>
+        </div>
+        <section id="visited_section">
+            <h2>Most Visited Places</h2>
+            <div id="visited_list">
+                <div class="visited_card">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396357/advancerTeam/Recreation%20App/Rectangle_1_mzu8db.png" alt="Whispering Palms, Lagos">
+                    <div class="card_desc">
+                        <p>Whispering Palms, Lagos</p>
+                    </div>
+                </div>
+                <div class="visited_card">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396357/advancerTeam/Recreation%20App/Rectangle_1_mzu8db.png" alt="ShopRrite, Abuja">
+                    <div class="card_desc">
+                        <p>ShopRite, Abuja</p>
+                    </div>
+                </div>
+                <div class="visited_card">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396357/advancerTeam/Recreation%20App/Rectangle_1_mzu8db.png" alt="Peace Park, Port Harcourt">
+                    <div class="card_desc">
+                        <p>Peace Park, Port Harcourt</p>
+                    </div>
+                </div>
+                <div class="visited_card">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396357/advancerTeam/Recreation%20App/Rectangle_1_mzu8db.png" alt="Agodi Gardens, Ibadan">
+                    <div class="card_desc">
+                        <p>Agodi Gardens, Ibadan</p>
+                    </div>
+                </div>
+                <div class="visited_card">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396357/advancerTeam/Recreation%20App/Rectangle_1_mzu8db.png" alt="Omu Resort, Lagos">
+                    <div class="card_desc">
+                        <p>Omu Resort, Lagos</p>
+                    </div>
+                </div>
+                <div class="visited_card">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/q_auto:eco/v1579396357/advancerTeam/Recreation%20App/Rectangle_1_mzu8db.png" alt="Dunes Express Cafe, Abuja">
+                    <div class="card_desc">
+                        <p>Dunes Express Cafe, Abuja</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recommended_section">
+            <h2>Recommended Places</h2>
+            <div id="recommended_list">
+                <div class="recommended_card">
+                    <div class="rec_card_img">
+                        <img src="https://res.cloudinary.com/jphil/image/upload/v1579402789/advancerTeam/Recreation%20App/Nike_art_gallery_qrp7ag.png" alt="">
+                    </div>
+                    <div class="rec_card_desc">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus earum aspernatur, voluptatem corrupti libero cupiditate. Blanditiis impedit, in excepturi dolorum sapiente odio a, quia deserunt facilis cum neque illo!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus earum aspernatur, voluptatem corrupti libero cupiditate. Blanditiis impedit, in excepturi dolorum sapiente odio a, quia deserunt facilis cum neque illo!
+                        </p>
+                    </div>
+                </div>
+                <div class="recommended_card">
+                    <div class="rec_card_img">
+                        <img src="https://res.cloudinary.com/jphil/image/upload/v1579402789/advancerTeam/Recreation%20App/Zuma_rock_ojtyn3.png" alt="">
+                    </div>
+                    <div class="rec_card_desc">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus earum aspernatur, voluptatem corrupti libero cupiditate. Blanditiis impedit, in excepturi dolorum sapiente odio a, quia deserunt facilis cum neque illo!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus earum aspernatur, voluptatem corrupti libero cupiditate. Blanditiis impedit, in excepturi dolorum sapiente odio a, quia deserunt facilis cum neque illo!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button id="more">More <i class="fa fa-arrow-down"></i></button>
+        </section>
+        <section id="fun">
+            <h3 id="quote">
+                “When fun get deep enough, it can heal the world”
+            </h3>
+        </section>
+        <footer>
+            <div id="newsletter">
+                <p>
+                    <i class="fa fa-envelope"></i> NEWSLETTERS
+                </p>
+
+                <form action="" id="subscribe">
+                    <input type="email" name="" id="" placeholder="Enter Mail Address">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+            <div id="app_download">
+                <h4>Download the App</h4>
+                <p>It's even better on your phone</p>
+                <div id="app_stores">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/v1579406097/advancerTeam/Recreation%20App/Steamy-Concepts-Mobile-App-Store-Google-Play-Android_1_lxevxy.png" alt="Google Play Store">
+                    <img src="https://res.cloudinary.com/jphil/image/upload/v1579406097/advancerTeam/Recreation%20App/App_Store_1_ktcsyt.png" alt="Apple Store">
+                </div>
+            </div>
+            <div id="bottom_nav">
+                <ul>
+                    <h4>Hot Links</h4>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Our Vision</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h4>Top Places</h4>
+                    <li>
+                        <a href="">Lagos</a>
+                    </li>
+                    <li>
+                        <a href="">Abuja</a>
+                    </li>
+                    <li>
+                        <a href="">Ibadan</a>
+                    </li>
+                    <li>
+                        <a href="">Port Harcourt</a>
+                    </li>
+                </ul>
+                <ul>
+                    <h4>Others</h4>
+                    <li>
+                        <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="">Ride Hailing Service</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/all.js"></script>
